@@ -1,3 +1,10 @@
 {
-  "settingsInheritedFrom": "GHCbflam1/whitesource-config@main"
+  "settingsInheritedFrom": "GHCbflam1/whitesource-config@main",
+ "imageSettings": {
+    "imageTracing": {
+        "enableImageTracingPR": true,
+        "addDockerfilePath": true,
+        "addRepositoryCoordinates": true
+    }
+  }
 }
