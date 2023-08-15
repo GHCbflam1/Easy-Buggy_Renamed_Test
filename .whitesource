@@ -21,7 +21,13 @@
 	    "issueType": "DEPENDENCY"
 	  },
 	  "leastVulnerablePackageSettings": {                 
-	    "enabled": true  
+	    "enabled": true 
+	  },
+	  "remediateSettings": {
+	    "workflowRules": {
+	      "enabled": true
+	    },
+	    "enableRenovate": false
 	}
    }
 }
