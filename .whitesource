@@ -1,4 +1,24 @@
 {
-  "settingsInheritedFrom": "GHCbflam1/whitesource-config@main"
-
+  "scanSettings": {
+    "configMode": "LOCAL",
+	"configExternalURL": "",
+    "projectToken": "",
+	"baseBranches": []
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "leastVulnerablePackageSettings": {                 
+    "enabled": true
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  }
 }
