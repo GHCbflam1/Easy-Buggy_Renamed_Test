@@ -1,7 +1,6 @@
 {
   "settingsInheritedFrom": "GHCbflam1/whitesource-config@main"
-}
-{
+  },
   "scanSettings": {
     "configMode": "LOCAL",
 	"configExternalURL": "",
@@ -23,5 +22,4 @@
     "workflowRules": {
       "enabled": true
     }
-  }
 }
